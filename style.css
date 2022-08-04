@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    
+    background-color: #c5d9db;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.layout{
+    
+    
+    height:750px;
+    width:900px;
+    
+    margin-top: 56px;
+    
+    
+    
+}
+.celebal_logo{
+    height:100px;
+    width:366px;
+    margin-top: 34px;
+    margin-left: 34px;
+}
+.group_96{
+    
+    /* border: 2px solid blue; */
+    width: 60vw;    
+    height: auto;
+    position: absolute;
+    top: 12.5rem;
+    z-index: -1;
+    /* background-image: url('Group 96.png'); */
+    
+}
+.text{
+    width:22vw;
+    height:30vh;
+    margin-top: 12px;
+    margin-left: 34px;
+}
+
+.loginForm{
+    /* border: 2px solid black; */
+    display:flex;
+    flex-direction: column;
+    background-color:black;
+    height:100vh;
+    width: 46vw;
+    margin-top: -800px;
+    margin-left:800px;
+    border-radius: 23px;
+}
+/* .innerloginform{
+    height:670px;
+    width:660px;
+    background-color: rgb(62, 55, 55);
+    margin-left:23px;
+    border-radius: 12px;
+    margin-top: 32px;
+} */
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 46vw;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+input {
+    margin-bottom: 1.2rem;
+    width: 28rem;
+    padding:  1.5rem 1.25rem;
+    border-radius: 50px;
+    
+}
+::placeholder {
+    position: absolute;
+    font-size: 24px;
+    margin-bottom: 19px;
+    /* border: 1px solid black; */
+}
+.label {
+    /* border: 2px solid white; */
+    color:white;
+    width: 46vw;
+    text-align: center;
+    font-size: 46px;
+    padding: 2.5rem;
+    font-weight: bold;
+}
+.check {
+    display: flex;
+    color: white;
+    align-items: top;
+    justify-content: center;
+}
+.checkbox {
+    width: 25px;
+    height: 25px;
+    margin-right: 1.5rem;
+    /* margin-top: 1rem; */
+    
+}
+span{
+    margin-top: 0.2rem;
+}
+.Btn {
+    width: 46vw;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+.signupBtn{
+    width: 28rem;
+    height: auto;
+    padding: 1.25rem;
+    border-radius: 50px;
+    background: turquoise;
+    font-size: 20px;
+    }
+
+    .signupBtn:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:#FFFFFF;
+    border-color:#FFFFFF;
+   
+    }
